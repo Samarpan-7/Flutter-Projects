@@ -1,0 +1,17 @@
+name: currency_frontend
+description: Single page currency converter with JWT & MongoDB backend
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0                # ✅ upgraded for modern API handling
+  flutter_secure_storage: ^9.0.0   # ✅ newer version with better Android/iOS support
+  encrypt: ^5.0.1
+  provider: ^6.0.5
+
+flutter:
+  uses-material-design: true
